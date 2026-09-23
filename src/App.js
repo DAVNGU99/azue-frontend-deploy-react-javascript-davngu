@@ -1,8 +1,11 @@
-import React from 'react';
-
+import trapImage from "./its-a-trap.jpg";
+import React from "react";
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+  return (
+    <main>
+      <img src={trapImage} alt="It's a trap" style={{ width: "500px" }} />
+    </main>
+  );
 }
 
 export default App;
